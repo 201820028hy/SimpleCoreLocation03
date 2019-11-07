@@ -12,6 +12,8 @@
 		4E8C01862373DE37006F4D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C01842373DE37006F4D6D /* Main.storyboard */; };
 		4E8C01882373DE38006F4D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C01872373DE38006F4D6D /* Assets.xcassets */; };
 		4E8C018B2373DE38006F4D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C01892373DE38006F4D6D /* LaunchScreen.storyboard */; };
+		4E8C01942373DE45006F4D6D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8C01932373DE45006F4D6D /* MapKit.framework */; };
+		4E8C01962373DE7B006F4D6D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8C01952373DE7B006F4D6D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4E8C01872373DE38006F4D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8C018A2373DE38006F4D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8C018C2373DE38006F4D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8C01932373DE45006F4D6D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4E8C01952373DE7B006F4D6D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8C01962373DE7B006F4D6D /* CoreLocation.framework in Frameworks */,
+				4E8C01942373DE45006F4D6D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				4E8C017F2373DE37006F4D6D /* SimpleCoreLocation03 */,
 				4E8C017E2373DE37006F4D6D /* Products */,
+				4E8C01922373DE45006F4D6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				4E8C018C2373DE38006F4D6D /* Info.plist */,
 			);
 			path = SimpleCoreLocation03;
+			sourceTree = "<group>";
+		};
+		4E8C01922373DE45006F4D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8C01952373DE7B006F4D6D /* CoreLocation.framework */,
+				4E8C01932373DE45006F4D6D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
